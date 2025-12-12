@@ -6,6 +6,7 @@
 #include <QRadioButton>
 #include <QMessageBox>
 #include <QLabel>
+#include <QButtonGroup>
 
 #define COM -1
 #define MAN 1

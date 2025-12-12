@@ -10,9 +10,10 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow),
     isCircle(true),     // 圈优先
-    currentDepth(9),    // 当前深度为9
+    gameType(0),        // 初始化对战模式
+    levelType(AIZZ),    // 难度等级为人工智障
     player(MAN),        // 下子方为人类
-    levelType(AIZZ)     // 难度等级为人工智障
+    currentDepth(9)     // 当前深度为9
 {
     ui->setupUi(this);
 
